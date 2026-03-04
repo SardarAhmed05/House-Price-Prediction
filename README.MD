@@ -4,6 +4,8 @@ An end-to-end machine learning project built for the [Kaggle House Prices: Advan
 
 **Kaggle Score: 0.14657 RMSLE**
 
+![Kaggle Submission](images/submission.png)
+
 ---
 
 ## 📁 Project Structure
@@ -105,3 +107,4 @@ jupyter notebook notebooks/house_price_prediction.ipynb
 - Encoders are fitted **only on training data** and reused on test data to prevent data leakage
 - Outlier removal was applied to training data only
 - The log transformation on `SalePrice` was critical for model performance
+
