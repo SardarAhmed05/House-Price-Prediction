@@ -13,15 +13,10 @@ An end-to-end machine learning project built for the [Kaggle House Prices: Advan
 ```
 House-Price-Prediction/
 ├── data/
-│   ├── train.csv
-│   ├── test.csv
-│   ├── train_preprocessed.csv
-│   ├── test_preprocessed.csv
-│   ├── sample_submission.csv
-│   └── submission.csv
+├── images/
+├── models/
 ├── notebooks/
 │   └── house_price_prediction.ipynb
-├── images/
 ├── requirements.txt
 └── README.md
 ```
@@ -107,4 +102,5 @@ jupyter notebook notebooks/house_price_prediction.ipynb
 - Encoders are fitted **only on training data** and reused on test data to prevent data leakage
 - Outlier removal was applied to training data only
 - The log transformation on `SalePrice` was critical for model performance
+
 
